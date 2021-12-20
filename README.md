@@ -47,20 +47,6 @@ For example, using the same lecture’s problem shown above, the splines coeffic
 For the length of the trajectory function, the same testing method of the first function was used, simple functions with known lengths were tested, and had their results compared with the known values. 
 This part was tested using t = 0:10, x = exp(t)
 Theoretical length = 22025.93
-Measured length:
-
-### Tool 2
-For the validation of tool 2, we used known values from a question in problem set 6 which we solved manually and checked for the result using both O(h^2) and O(h^4).
-The question:
-
-The manual answer for y’(pi/4) using O(h^2):
-
-The manual answer for y’(pi/4) using O(h^2):
-
-The code answers for y’(x) O(h^2):
-
-The code answers for y’(x) O(h^4):
-
 
 ### Tool 3
 
@@ -114,7 +100,11 @@ Input Example Screenshot:
 The functions created resulted in the success of the five tool objectives thus, the research succeeded in measuring total length of path of projectile, the resultant velocity and angle versus time, the position against time and hitting a specific target by varying the information given by the user. And while the tools and functions took into account air resistance, the application of such a model in real life is more complex and includes more variables that are constantly interchangeable, for example air resistance cannot always be easily calculated, gravitational forces may change from one area or one height to another, viscosity of air in the atmosphere is also something that can be varying and hard to calculate. Thus, while the used functions and tools strive to produce the best possible results, there remains a margin of error and a chance for increased accuracy given more complex tools that would calculate all needed variables given the circumstances of conducting the experiment. 
 ## References
 [1] https://www.youtube.com/watch?v=UhhfKXBnnEo
+
 [2] https://www.programmersought.com/article/47074724055/
+
 [3] Doctor ElKhayam Dorra’s slides for Engineering Analysis and Computation, Spring 2021.
+
 [4] https://tutorial.math.lamar.edu/classes/de/eulersmethod.aspx
+
 [5] https://textflow.mheducation.com/parser.php?secload=2
